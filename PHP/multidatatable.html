@@ -681,96 +681,7 @@ $<span style='color:#808030; '>(</span><span style='color:#800000; '>'</span><sp
 
                 </div>
                 
-                <!--comments-->
-                <div class="all_comments">
-                	<h3>Comments (3)</h3>
-                    <ul>
-                        <li class="comment_list">
-                            <div class="comment_author_avatar">
-                                <img src="images/image1.jpg" alt="image">
-                            </div>
-                            
-                            <div class="comment_content">
-                                <div class="comment_info">
-                                    <h6 class="comment_author">Admin<a href="#"></a></h6>
-                                    <span class="comment_date">December 17, 2015</span>
-                                    <span class="comment_time">10:44 am</span>
-                                </div>
-                                <div class="comment_text_wrap">
-                                    <div class="comment_text"><p>Aliquam id nibh vestibulum, finibus felis at, dictum libero. Nullam dignissim vel quam at placerat. Suspendisse potenti. Vivamus lacinia nunc in orci iaculis, non luctus est aliquam. Integer quis tincidunt metus. Duis ornare ultrices nisi ut feugiat.</p>
-                                    </div>
-                                </div>
-                                <div class="comment_reply"><a href="#" class="btn"><i class="fa fa-reply"></i> Reply</a></div>
-                            </div>
-                        </li>
-                        <li class="comment_list">
-                            <div class="comment_author_avatar">
-                                <img src="images/image1.jpg" alt="image">
-                            </div>
-                            <div class="comment_content">
-                                <div class="comment_info">
-                                    <h6 class="comment_author">Admin<a href="#"></a></h6>
-                                    <span class="comment_date">December 17, 2015</span>
-                                    <span class="comment_time">10:44 am</span>
-                                </div>
-                                <div class="comment_text_wrap">
-                                    <div class="comment_text"><p>Aliquam id nibh vestibulum, finibus felis at, dictum libero. Nullam dignissim vel quam at placerat. Suspendisse potenti. Vivamus lacinia nunc in orci iaculis, non luctus est aliquam. Integer quis tincidunt metus. Duis ornare ultrices nisi ut feugiat.</p>
-                                    </div>
-                                </div>
-                                <div class="comment_reply"><a href="#" class="btn"><i class="fa fa-reply"></i> Reply</a></div>
-                            </div>
-                            <ul class="child_list">
-                                <div class="comment_author_avatar">
-                                    <img src="images/image1.jpg" alt="image">
-                                </div>
-                                <div class="comment_content">
-                                    <div class="comment_info">
-                                        <h6 class="comment_author">Admin<a href="#"></a></h6>
-                                        <span class="comment_date">December 17, 2015</span>
-                                        <span class="comment_time">10:44 am</span>
-                                    </div>
-                                    <div class="comment_text_wrap">
-                                        <div class="comment_text"><p>Aliquam id nibh vestibulum, finibus felis at, dictum libero. Nullam dignissim vel quam at placerat. Suspendisse potenti. Vivamus lacinia nunc in orci iaculis, non luctus est aliquam. Integer quis tincidunt metus. Duis ornare ultrices nisi ut feugiat.</p>
-                                        </div>
-                                    </div>
-                                    <div class="comment_reply"><a href="#" class="btn"><i class="fa fa-reply"></i> Reply</a></div>
-                                </div>
-                            </ul>
-                        </li>
-                   </ul>
-                </div>
-                <!--/comments-->
-                
-                <!---comment-form--->
-                <div class="psot_comment">
-                    <h3>Leave a Reply </h3>
-                    <div class="commentform">
-                        <form action="#">
-                            <div class="form-group">
-                                <textarea tabindex="4" rows="7" class="required" id="comment" placeholder="Your message" name="comment"></textarea>
-                            </div>
-                            
-                            <div class="form-group">
-                                <input type="text" aria-required="true" size="30" value="" placeholder="Name *" name="author" id="author">
-                            </div>
-                            
-                            <div class="form-group">
-                                <input type="email" aria-required="true" size="30" value="" placeholder="Email *" name="email" id="email">
-                            </div>
-                            
-                            <div class="form-group">
-                                <input type="text" size="30" value="" placeholder="Website" name="url" id="url">
-                            </div>
-                            
-                            <div class="form-group">
-                            <input type="submit" value="Post comment" class="btn submit btn active_btn" id="submit" name="submit">
-                            </div>
-                
-                        
-                        </form>
-                    </div>
-                </div>
-                <!---/comment-form--->
+               
                 
             </article>
             
@@ -778,7 +689,25 @@ $<span style='color:#808030; '>(</span><span style='color:#800000; '>'</span><sp
         </div>
     </div>
 </section>
+<div style="margin-left:15%;margin-right:15%;" id="disqus_thread"></div>
+<script>
 
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_config = function () {
+this.page.url = 'http://localhost/G2S/Guide2solution/PHP/multidatatable.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'PHP/multidatatable.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://guide2solution.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//guide2solution.disqus.com/count.js" async></script>
 <!--footer-->
 <footer>
     <div class="container">
